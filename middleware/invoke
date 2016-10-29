@@ -1,4 +1,4 @@
 #!/bin/sh
 /usr/bin/invoke_app "$@" -t TOOLNAME \
-    -u anaconda2-4.1 \
-    -C "start_jupyter -t -T @tool bin/tool.ipynb"
+    -u rappture \
+    -C rappture

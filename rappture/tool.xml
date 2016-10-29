@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<run>
+    <tool>
+        <about>Press Simulate to view results.</about>
+        <command>@tool/../bin/a.out @driver</command>
+    </tool>
+    <input>
+        <number id="one">
+            <about>
+                <label>First Value</label>
+                <description>Main value</description>
+            </about>
+            <default>7</default>
+        </number>
+        <number id="two">
+            <about>
+                <label>Second Value</label>
+                <description>Value to subtract from the first.</description>
+            </about>
+            <default>3</default>
+        </number>
+    </input>
+</run>
